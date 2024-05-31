@@ -4,7 +4,7 @@ import {NgModule} from "@angular/core";
 import {MetaResolverService} from "./resolvers/meta-resolver.service";
 
 export const routes: Routes = [
-  // After login
+  // After login : this resolve guaranty that this routes load after loading meta service load
   {
     path: '',
     component: PagesComponent,
